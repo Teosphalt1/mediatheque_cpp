@@ -1,0 +1,15 @@
+﻿  FormAdmin.cpp
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+  FormLibraryAdmin.cpp
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+  FormLogin.cpp
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+  Génération de code en cours...
+  CAD.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
+  Project1.vcxproj -> C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Debug\Project1.exe
