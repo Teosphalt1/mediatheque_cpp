@@ -1,15 +1,26 @@
-﻿  FormAdmin.cpp
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+﻿  CAD.cpp
   FormLibraryAdmin.cpp
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
   FormLogin.cpp
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
-C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+  FormAdmin.cpp
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+  FormUser.cpp
+  GestionLibraryAdmin.cpp
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+  MapLibraryAdmin.cpp
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): warning C4570: 'NS_Comp_Mappage::Map' : n'est pas explicitement déclaré comme abstract mais comporte des fonctions abstract
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(6,12): message : 'System::String ^NS_Comp_Mappage::Map::SELECT(void)' : est abstrait
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Map.h(9): message : voir la déclaration de 'NS_Comp_Mappage::Map::SELECT'
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Génération de code en cours...
   CAD.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
-  Project1.vcxproj -> C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Debug\Project1.exe
+  Project1.vcxproj -> E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Debug\Project1.exe
