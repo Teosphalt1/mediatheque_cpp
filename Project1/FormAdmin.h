@@ -1,5 +1,6 @@
 #pragma once
 #include "FormLibraryAdmin.h"
+#include "FormBooksAdmin.h"
 
 namespace Project1 {
 
@@ -76,6 +77,7 @@ namespace Project1 {
 			this->btManageBooks->TabIndex = 1;
 			this->btManageBooks->Text = L"Manage Books";
 			this->btManageBooks->UseVisualStyleBackColor = true;
+			this->btManageBooks->Click += gcnew System::EventHandler(this, &FormAdmin::btManageBooks_Click);
 			// 
 			// btManageUsers
 			// 
@@ -103,6 +105,10 @@ namespace Project1 {
 	private: System::Void btManageLibrary_Click(System::Object^ sender, System::EventArgs^ e) {
 		FormLibraryAdmin^ formlibraryadmin = gcnew FormLibraryAdmin;
 		formlibraryadmin->ShowDialog();
+	}
+	private: System::Void btManageBooks_Click(System::Object^ sender, System::EventArgs^ e) {
+		FormBooksAdmin^ formbooksadmin = gcnew FormBooksAdmin;
+		formbooksadmin->ShowDialog();
 	}
 	};
 }

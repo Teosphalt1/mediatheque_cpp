@@ -5,3 +5,4 @@ C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Debug\P
 C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Debug\Project1.FormAdmin.resources
 C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Debug\Project1.FormUser.resources
 C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Debug\Project1.FormLibraryAdmin.resources
+C:\Users\teosp\OneDrive\Bureau\A2\Sauvetage Pol\mediatheque_cpp\Project1\Debug\Project1.FormBooksAdmin.resources

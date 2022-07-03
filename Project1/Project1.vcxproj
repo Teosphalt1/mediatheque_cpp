@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -122,15 +122,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CAD.cpp" />
+    <ClCompile Include="FormBooksAdmin.cpp" />
     <ClCompile Include="FormLibraryAdmin.cpp" />
     <ClCompile Include="FormLogin.cpp" />
     <ClCompile Include="FormAdmin.cpp" />
     <ClCompile Include="FormUser.cpp" />
+    <ClCompile Include="GestionBooksAdmin.cpp" />
     <ClCompile Include="GestionLibraryAdmin.cpp" />
+    <ClCompile Include="MapBooksAdmin.cpp" />
     <ClCompile Include="MapLibraryAdmin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CAD.h" />
+    <ClInclude Include="FormBooksAdmin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="FormLibraryAdmin.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -143,12 +149,17 @@
     <ClInclude Include="FormUser.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="GestionBooksAdmin.h" />
     <ClInclude Include="GestionLibraryAdmin.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="MapBooksAdmin.h" />
     <ClInclude Include="MapLibraryAdmin.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormBooksAdmin.resx">
+      <DependentUpon>FormBooksAdmin.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLibraryAdmin.resx">
       <DependentUpon>FormLibraryAdmin.h</DependentUpon>
     </EmbeddedResource>
