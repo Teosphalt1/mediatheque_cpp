@@ -15,6 +15,5 @@ namespace NS_Comp_Svc
 		/*~GestionLibraryAdmin(); */
 
 		Data::DataSet^ selectLibrary(String^);
-
 	};
 }

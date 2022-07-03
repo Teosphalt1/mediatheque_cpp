@@ -4,7 +4,7 @@
 
 NS_Comp_Data::CAD::CAD(void)
 {
-	this->sCnx = "Data Source=LAPTOP-502SFKRC\\MYSQL_THEOPHILE;Initial Catalog=mediatheque;Integrated Security=True";	//Chaine de connexion à la base de données hébergée localement
+	this->sCnx = "Data Source=PCGAEL\\MSSQL_GAEL;Initial Catalog=BIG_PHARMA;User ID=USER_ADMIN;Password=Galou3713!";	//Chaine de connexion à la base de données hébergée localement
 	this->sSql = "Rien";
 
 	this->oCnx = gcnew System::Data::SqlClient::SqlConnection(this->sCnx);														//Connexion

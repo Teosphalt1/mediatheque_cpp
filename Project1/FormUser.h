@@ -1,5 +1,7 @@
 #pragma once
 
+#include "FormUserInfo.h"
+
 namespace Project1 {
 
 	using namespace System;
@@ -46,7 +48,7 @@ namespace Project1 {
 		/// <summary>
 		/// Variable nécessaire au concepteur.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -61,34 +63,45 @@ namespace Project1 {
 			// 
 			// btManageInfos
 			// 
-			this->btManageInfos->Location = System::Drawing::Point(98, 35);
+			this->btManageInfos->Location = System::Drawing::Point(131, 43);
+			this->btManageInfos->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->btManageInfos->Name = L"btManageInfos";
-			this->btManageInfos->Size = System::Drawing::Size(90, 90);
+			this->btManageInfos->Size = System::Drawing::Size(120, 111);
 			this->btManageInfos->TabIndex = 0;
 			this->btManageInfos->Text = L"My Informations";
 			this->btManageInfos->UseVisualStyleBackColor = true;
+			this->btManageInfos->Click += gcnew System::EventHandler(this, &FormUser::btManageInfos_Click);
 			// 
 			// btManageBooks
 			// 
-			this->btManageBooks->Location = System::Drawing::Point(98, 143);
+			this->btManageBooks->Location = System::Drawing::Point(131, 176);
+			this->btManageBooks->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->btManageBooks->Name = L"btManageBooks";
-			this->btManageBooks->Size = System::Drawing::Size(90, 90);
+			this->btManageBooks->Size = System::Drawing::Size(120, 111);
 			this->btManageBooks->TabIndex = 1;
 			this->btManageBooks->Text = L"Books";
 			this->btManageBooks->UseVisualStyleBackColor = true;
+			this->btManageBooks->Click += gcnew System::EventHandler(this, &FormUser::btManageBooks_Click);
 			// 
 			// FormUser
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(284, 261);
+			this->ClientSize = System::Drawing::Size(379, 321);
 			this->Controls->Add(this->btManageBooks);
 			this->Controls->Add(this->btManageInfos);
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"FormUser";
 			this->Text = L"FormUser";
 			this->ResumeLayout(false);
 
 		}
-#pragma endregion
+	#pragma endregion
+		private: System::Void btManageInfos_Click(System::Object^ sender, System::EventArgs^ e) {
+			FormUserInfo^ formuserinfo = gcnew FormUserInfo;
+			formuserinfo->ShowDialog();
+		}
+		private: System::Void btManageBooks_Click(System::Object^ sender, System::EventArgs^ e) {
+		}
 	};
 }

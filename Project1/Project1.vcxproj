@@ -126,8 +126,10 @@
     <ClCompile Include="FormLogin.cpp" />
     <ClCompile Include="FormAdmin.cpp" />
     <ClCompile Include="FormUser.cpp" />
+    <ClCompile Include="FormUserInfo.cpp" />
     <ClCompile Include="GestionLibraryAdmin.cpp" />
     <ClCompile Include="MapLibraryAdmin.cpp" />
+    <ClCompile Include="MapUserInfo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CAD.h" />
@@ -143,9 +145,11 @@
     <ClInclude Include="FormUser.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="FormUserInfo.h" />
     <ClInclude Include="GestionLibraryAdmin.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MapLibraryAdmin.h" />
+    <ClInclude Include="MapUserInfo.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>

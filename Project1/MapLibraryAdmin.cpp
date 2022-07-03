@@ -3,7 +3,7 @@
 
 String^ NS_Comp_Mappage::MapLibraryAdmin::SELECT(void)
 {
-	return "SELECT * FROM libraries WHERE id=1";
+	return "SELECT * FROM libraries";
 }
 
 
