@@ -2,6 +2,7 @@
   Project1.FormLogin.resources - Embedded, ContainedInManifestFile, 
   Project1.FormAdmin.resources - Embedded, ContainedInManifestFile, 
   Project1.FormUser.resources - Embedded, ContainedInManifestFile, 
+  Project1.FormUserInfo.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly Project1, Version=0.0.*, Culture=Langue indifférente (Pays indifférent): 
 	hash=SHA1, flags=PublicKey

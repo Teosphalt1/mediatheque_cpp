@@ -12,9 +12,9 @@ namespace NS_Comp_Mappage
 
 	public:
 		virtual String^ SELECT(void) override;
-		/* virtual String^ INSERT(void) override;
-		virtual String^ DELETE(void) override;
-		virtual String^ UPDATE(void) override;*/
+		//virtual String^ INSERT(void) override;
+		//virtual String^ DELETE(void) override;
+		//virtual String^ UPDATE(void) override;
 		
 		void setId(int);
 		void setCity(String^);

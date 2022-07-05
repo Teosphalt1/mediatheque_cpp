@@ -41,6 +41,7 @@ namespace Project1 {
 	protected:
 	private: System::Windows::Forms::Button^ btUser;
 
+
 	private:
 		/// <summary>
 		/// Variable nécessaire au concepteur.
@@ -60,9 +61,10 @@ namespace Project1 {
 			// 
 			// btAdmin
 			// 
-			this->btAdmin->Location = System::Drawing::Point(81, 137);
+			this->btAdmin->Location = System::Drawing::Point(108, 169);
+			this->btAdmin->Margin = System::Windows::Forms::Padding(4);
 			this->btAdmin->Name = L"btAdmin";
-			this->btAdmin->Size = System::Drawing::Size(166, 73);
+			this->btAdmin->Size = System::Drawing::Size(221, 90);
 			this->btAdmin->TabIndex = 0;
 			this->btAdmin->Text = L"Bibliothécaire";
 			this->btAdmin->UseVisualStyleBackColor = true;
@@ -70,9 +72,10 @@ namespace Project1 {
 			// 
 			// btUser
 			// 
-			this->btUser->Location = System::Drawing::Point(328, 137);
+			this->btUser->Location = System::Drawing::Point(437, 169);
+			this->btUser->Margin = System::Windows::Forms::Padding(4);
 			this->btUser->Name = L"btUser";
-			this->btUser->Size = System::Drawing::Size(166, 73);
+			this->btUser->Size = System::Drawing::Size(221, 90);
 			this->btUser->TabIndex = 1;
 			this->btUser->Text = L"Lecteur";
 			this->btUser->UseVisualStyleBackColor = true;
@@ -80,14 +83,16 @@ namespace Project1 {
 			// 
 			// FormLogin
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::ActiveCaption;
-			this->ClientSize = System::Drawing::Size(570, 360);
+			this->ClientSize = System::Drawing::Size(760, 443);
 			this->Controls->Add(this->btUser);
 			this->Controls->Add(this->btAdmin);
+			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"FormLogin";
 			this->Text = L"FormLogin";
+			this->Load += gcnew System::EventHandler(this, &FormLogin::FormLogin_Load);
 			this->ResumeLayout(false);
 
 		}
@@ -100,5 +105,7 @@ namespace Project1 {
 		FormUser^ formuser = gcnew FormUser;
 		formuser->ShowDialog();
 	}
-	};
+	private: System::Void FormLogin_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }

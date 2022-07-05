@@ -55,7 +55,7 @@ namespace Project1 {
 		void InitializeComponent(void)
 		{
 			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
+			cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1)->BeginInit();
 			this->SuspendLayout();
 			// 
 			// dataGridView1

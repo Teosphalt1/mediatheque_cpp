@@ -60,9 +60,10 @@ namespace Project1 {
 			// 
 			// btManageLibrary
 			// 
-			this->btManageLibrary->Location = System::Drawing::Point(116, 39);
+			this->btManageLibrary->Location = System::Drawing::Point(155, 48);
+			this->btManageLibrary->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->btManageLibrary->Name = L"btManageLibrary";
-			this->btManageLibrary->Size = System::Drawing::Size(106, 96);
+			this->btManageLibrary->Size = System::Drawing::Size(141, 118);
 			this->btManageLibrary->TabIndex = 0;
 			this->btManageLibrary->Text = L"Manage Library";
 			this->btManageLibrary->UseVisualStyleBackColor = true;
@@ -70,32 +71,36 @@ namespace Project1 {
 			// 
 			// btManageBooks
 			// 
-			this->btManageBooks->Location = System::Drawing::Point(116, 141);
+			this->btManageBooks->Location = System::Drawing::Point(155, 174);
+			this->btManageBooks->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->btManageBooks->Name = L"btManageBooks";
-			this->btManageBooks->Size = System::Drawing::Size(106, 96);
+			this->btManageBooks->Size = System::Drawing::Size(141, 118);
 			this->btManageBooks->TabIndex = 1;
 			this->btManageBooks->Text = L"Manage Books";
 			this->btManageBooks->UseVisualStyleBackColor = true;
 			// 
 			// btManageUsers
 			// 
-			this->btManageUsers->Location = System::Drawing::Point(116, 243);
+			this->btManageUsers->Location = System::Drawing::Point(155, 299);
+			this->btManageUsers->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->btManageUsers->Name = L"btManageUsers";
-			this->btManageUsers->Size = System::Drawing::Size(106, 96);
+			this->btManageUsers->Size = System::Drawing::Size(141, 118);
 			this->btManageUsers->TabIndex = 2;
 			this->btManageUsers->Text = L"Manage Users";
 			this->btManageUsers->UseVisualStyleBackColor = true;
 			// 
 			// FormAdmin
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(336, 376);
+			this->ClientSize = System::Drawing::Size(448, 463);
 			this->Controls->Add(this->btManageUsers);
 			this->Controls->Add(this->btManageBooks);
 			this->Controls->Add(this->btManageLibrary);
+			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"FormAdmin";
 			this->Text = L"FormAdmin";
+			this->Load += gcnew System::EventHandler(this, &FormAdmin::FormAdmin_Load);
 			this->ResumeLayout(false);
 
 		}
@@ -103,6 +108,8 @@ namespace Project1 {
 	private: System::Void btManageLibrary_Click(System::Object^ sender, System::EventArgs^ e) {
 		FormLibraryAdmin^ formlibraryadmin = gcnew FormLibraryAdmin;
 		formlibraryadmin->ShowDialog();
+	}
+	private: System::Void FormAdmin_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }

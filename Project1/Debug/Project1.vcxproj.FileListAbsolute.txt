@@ -12,3 +12,4 @@ E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Debug\Pr
 E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Debug\Project1.FormUser.resources
 E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Debug\Project1.vcxproj.GenerateResource.cache
 E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Debug\Project1.exe
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Debug\Project1.FormUserInfo.resources

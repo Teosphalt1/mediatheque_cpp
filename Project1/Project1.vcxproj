@@ -126,8 +126,10 @@
     <ClCompile Include="FormLogin.cpp" />
     <ClCompile Include="FormAdmin.cpp" />
     <ClCompile Include="FormUser.cpp" />
+    <ClCompile Include="FormUserInfoOld.cpp" />
     <ClCompile Include="FormUserInfo.cpp" />
     <ClCompile Include="GestionLibraryAdmin.cpp" />
+    <ClCompile Include="GestionUserInfo.cpp" />
     <ClCompile Include="MapLibraryAdmin.cpp" />
     <ClCompile Include="MapUserInfo.cpp" />
   </ItemGroup>
@@ -145,8 +147,12 @@
     <ClInclude Include="FormUser.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="FormUserInfo.h" />
+    <ClInclude Include="FormUserInfoOld.h" />
+    <ClInclude Include="FormUserInfo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="GestionLibraryAdmin.h" />
+    <ClInclude Include="GestionUserInfo.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MapLibraryAdmin.h" />
     <ClInclude Include="MapUserInfo.h" />
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormUser.resx">
       <DependentUpon>FormUser.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserInfo.resx">
+      <DependentUpon>FormUserInfo.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

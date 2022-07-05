@@ -64,7 +64,7 @@ namespace Project1 {
 			// btManageInfos
 			// 
 			this->btManageInfos->Location = System::Drawing::Point(131, 43);
-			this->btManageInfos->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->btManageInfos->Margin = System::Windows::Forms::Padding(4);
 			this->btManageInfos->Name = L"btManageInfos";
 			this->btManageInfos->Size = System::Drawing::Size(120, 111);
 			this->btManageInfos->TabIndex = 0;
@@ -75,7 +75,7 @@ namespace Project1 {
 			// btManageBooks
 			// 
 			this->btManageBooks->Location = System::Drawing::Point(131, 176);
-			this->btManageBooks->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->btManageBooks->Margin = System::Windows::Forms::Padding(4);
 			this->btManageBooks->Name = L"btManageBooks";
 			this->btManageBooks->Size = System::Drawing::Size(120, 111);
 			this->btManageBooks->TabIndex = 1;
@@ -90,9 +90,10 @@ namespace Project1 {
 			this->ClientSize = System::Drawing::Size(379, 321);
 			this->Controls->Add(this->btManageBooks);
 			this->Controls->Add(this->btManageInfos);
-			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"FormUser";
 			this->Text = L"FormUser";
+			this->Load += gcnew System::EventHandler(this, &FormUser::FormUser_Load);
 			this->ResumeLayout(false);
 
 		}
@@ -103,5 +104,7 @@ namespace Project1 {
 		}
 		private: System::Void btManageBooks_Click(System::Object^ sender, System::EventArgs^ e) {
 		}
+	private: System::Void FormUser_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
 	};
 }
