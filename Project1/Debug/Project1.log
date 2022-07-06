@@ -1,11 +1,11 @@
 ﻿  FormUser.cpp
-E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V3\Project1\FormUser.h(3,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'FormUserInfo.h' : No such file or directory
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V4\Project1\FormUserInfo.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'GestionUserInfo.h' : No such file or directory
   FormUserInfo.cpp
-c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'FormUserInfo.cpp' : No such file or directory
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V4\Project1\FormUserInfo.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'GestionUserInfo.h' : No such file or directory
   GestionUserInfo.cpp
 c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'GestionUserInfo.cpp' : No such file or directory
   MapUserInfo.cpp
 c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'MapUserInfo.cpp' : No such file or directory
   FormLogin.cpp
-E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V3\Project1\FormUser.h(3,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'FormUserInfo.h' : No such file or directory
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V4\Project1\FormUserInfo.h(2,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'GestionUserInfo.h' : No such file or directory
   Génération de code en cours...
