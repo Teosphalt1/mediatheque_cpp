@@ -1,1 +1,5 @@
-﻿  Project1.vcxproj -> E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\Debug\Project1.exe
+﻿  FormLogin.cpp
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\FormLogin.cpp(8,22): error C2976: 'std::array' : nombre d'arguments modèle insuffisant
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(475): message : voir la déclaration de 'std::array'
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\FormLogin.cpp(8,42): error C3699: '^' : impossible d'utiliser cette indirection sur le type 'std::array'
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\FormLogin.cpp(8,42): message : le compilateur remplace '^' par '*' pour poursuivre l'analyse

@@ -18,9 +18,6 @@
     <ClCompile Include="CAD.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="FormLogin.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="FormAdmin.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
@@ -36,9 +33,6 @@
     <ClCompile Include="FormLibraryAdmin.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="FormUserInfoOld.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="MapUserInfo.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
@@ -46,6 +40,9 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="FormUserInfo.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FormLogin.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -75,9 +72,6 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="FormLibraryAdmin.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="FormUserInfoOld.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="MapUserInfo.h">

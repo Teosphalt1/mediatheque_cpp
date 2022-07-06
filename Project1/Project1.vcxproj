@@ -123,15 +123,14 @@
   <ItemGroup>
     <ClCompile Include="CAD.cpp" />
     <ClCompile Include="FormLibraryAdmin.cpp" />
-    <ClCompile Include="FormLogin.cpp" />
     <ClCompile Include="FormAdmin.cpp" />
     <ClCompile Include="FormUser.cpp" />
-    <ClCompile Include="FormUserInfoOld.cpp" />
     <ClCompile Include="FormUserInfo.cpp" />
     <ClCompile Include="GestionLibraryAdmin.cpp" />
     <ClCompile Include="GestionUserInfo.cpp" />
     <ClCompile Include="MapLibraryAdmin.cpp" />
     <ClCompile Include="MapUserInfo.cpp" />
+    <ClCompile Include="FormLogin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CAD.h" />
@@ -147,7 +146,6 @@
     <ClInclude Include="FormUser.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="FormUserInfoOld.h" />
     <ClInclude Include="FormUserInfo.h">
       <FileType>CppForm</FileType>
     </ClInclude>
