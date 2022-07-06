@@ -1,5 +1,11 @@
-﻿  FormLogin.cpp
-E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\FormLogin.cpp(8,22): error C2976: 'std::array' : nombre d'arguments modèle insuffisant
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(475): message : voir la déclaration de 'std::array'
-E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\FormLogin.cpp(8,42): error C3699: '^' : impossible d'utiliser cette indirection sur le type 'std::array'
-E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V2\mediatheque_cpp\Project1\FormLogin.cpp(8,42): message : le compilateur remplace '^' par '*' pour poursuivre l'analyse
+﻿  FormUser.cpp
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V3\Project1\FormUser.h(3,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'FormUserInfo.h' : No such file or directory
+  FormUserInfo.cpp
+c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'FormUserInfo.cpp' : No such file or directory
+  GestionUserInfo.cpp
+c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'GestionUserInfo.cpp' : No such file or directory
+  MapUserInfo.cpp
+c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'MapUserInfo.cpp' : No such file or directory
+  FormLogin.cpp
+E:\2EME ANNEE\RATTRAPAGE POO\Rattrapage POO V3\Project1\FormUser.h(3,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'FormUserInfo.h' : No such file or directory
+  Génération de code en cours...
